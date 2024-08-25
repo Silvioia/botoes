@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #141414;
+}
+
+/* Contêiner para os botões em linha */
+.button-container {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os botões */
+    margin-bottom: 20px; /* Espaçamento entre as linhas de botões */
+}
+
+/*  Estilo base para todos os botões */
+.btn {
+    font-size: 16px;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 10px 20px; /* Padding padrão */
+    transition: background-color 0.3s, transform 0.3s; /* Transição suave */
+}
+
+/* Botão 1: Padrão */
+.btn1 {
+    background-color: #007bff;
+    border-radius: 4px;
+}
+
+/* Botão 2: Grande e Redondo */
+.btn2 {
+    background-color: #28a745;
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+
+/* Botão 3: Pequeno e no Canto Inferior Esquerdo */
+.btn3 {
+    background-color: #dc3545;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/* Botão 4: Alongado e no Canto Superior Direito */
+.btn4 {
+    background-color: #ffc107;
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+/* Botão 5: Cinza e Médio */
+.btn5 {
+    background-color: #6c757d;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+
+/* Botão 6: Roxo e Pequeno */
+.btn6 {
+    background-color: #purple;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+/* Efeito hover para todos os botões */
+.btn:hover {
+    background-color: #000000; /* Cor de fundo escurecida para o hover */
+    transform: scale(1.05); /* Leve aumento no tamanho do botão */
+}
